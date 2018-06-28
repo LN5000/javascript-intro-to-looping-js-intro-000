@@ -13,3 +13,10 @@ function whileLoop(n) {
   }
   return "done"
 }
+
+function doWhileLoop(array) {
+  while (array.length > 0) {
+    array = array.unshift()
+  }
+  return "done"
+}
