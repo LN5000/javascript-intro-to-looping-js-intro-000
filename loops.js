@@ -14,9 +14,10 @@ function whileLoop(n) {
   return "done"
 }
 
-function doWhileLoop(array) {
-  while (array.length > 0) {
-    array = array.unshift()
-  }
-  return "done"
+function maybeTrue() {
+  return Math.random() >= 0.5
 }
+
+do {
+  array.unshift()
+} while (maybeTrue());
